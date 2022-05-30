@@ -3,7 +3,7 @@ library(shinyWidgets)
 library(tidyverse)
 
 ui <- fluidPage(
-  titlePanel("TIEMPO DE GESTACIÓN"),
+  titlePanel("TIEMPO DE GESTACIÓN- - Seleccione el número de contenedores con la barra deslizadora y el histograma automáticamente será actualizado con la distribución Normal ajustada."),
   sidebarLayout(
     sidebarPanel(
       setSliderColor(c("#b2df8a ", "#FF4500", "", "Teal"), c(1, 2, 4)),
@@ -33,7 +33,7 @@ server <- function(input, output) {
     yfit <- dnorm(xfit, mean = mean(x), sd = sd(x)) 
     yfit <- yfit * diff(h$mids[1:2]) * length(x) 
     
-    lines(xfit, yfit, col = "#b2df8ag", lwd = 2)
+    lines(xfit, yfit, col = "#FF4500", lwd = 2)
   })
   
 }

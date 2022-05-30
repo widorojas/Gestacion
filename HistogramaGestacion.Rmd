@@ -1,5 +1,5 @@
 ---
-title: "Histograma de gestación"
+title: "Histograma de gestación con distribución Normal ajustada"
 author: "Wido Rojas"
 date: '2022-05-29'
 output: ioslides_presentation
@@ -38,6 +38,6 @@ plot_ly(HP,x=~Gestation,y=~Birthweight,type="scatter",mode="markers") %>% add_li
 ## Histograma del estudio
 - El histograma se actualizará en forma automática y se visualizará la distribución Normal ajustada a los datos.
 ![ ](histograma.png)
+- Todos los archivos de este estudio los puede obtener desde el repositorio https://github.com/widorojas/Gestacion.git 
 
-
-- Todos los archivos de este estudio los puede obtener desde el repositorio GitHub del proyecto: https://github.com/widorojas/Gestacion.git 
+- La descripción del código fuente generado la puede obtener desde el archivo Histograma-Descripcion-del-codigo-R que se encuentra en el repositorio GitHub del proyecto y publicado en https://rpubs.com/W_R/908507.
