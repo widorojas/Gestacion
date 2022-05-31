@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Datos del estudio
 
-- Los datos del estudio son obtenidos directamente desde el enlace: https://people.math.sc.edu/Burkardt/datasets/csv/csv.html
+- Los datos del estudio son obtenidos directamente desde el enlace: https://people.math.sc.edu/Burkardt/datasets/csv/csv.html (archivo birthweight.csv)
 - La información del estudio se actualiza cada vez que los datos fuentes sean actualizados.
 
 ## Se obtuvo una regresión lineal del periodo de gestación y el peso del bebé

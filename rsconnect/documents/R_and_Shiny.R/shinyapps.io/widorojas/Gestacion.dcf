@@ -5,9 +5,9 @@ account: widorojas
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6397746
-bundleId: 5960459
+bundleId: 5961017
 url: https://widorojas.shinyapps.io/Gestacion/
-when: 1653925215.3543
-lastSyncTime: 1653925215.35431
+when: 1653938710.875
+lastSyncTime: 1653938710.87501
 asMultiple: FALSE
 asStatic: FALSE
